@@ -1,0 +1,5 @@
+{
+  "alias": "bs",
+  "prefix": "",
+  "dependencies": ["bajo-web", "bajo-web-static"]
+}
