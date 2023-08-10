@@ -1,5 +1,5 @@
 {
-  "alias": "bs",
+  "alias": "bootstrap",
   "prefix": "",
-  "dependencies": ["bajo-web", "bajo-web-static"]
+  "dependencies": ["bajo-web-mpa", "bajo-web-static"]
 }

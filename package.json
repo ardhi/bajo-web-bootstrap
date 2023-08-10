@@ -1,7 +1,7 @@
 {
-  "name": "bajo-web-bootstrap",
+  "name": "bajo-web-mpa-bootstrap",
   "version": "0.1.0",
-  "description": "Bootstrap Web Server Plugin for Bajo Framework",
+  "description": "Bootstrap MPA Web Server Plugin for Bajo Framework",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ardhi/bajo-web-bootstrap.git"
+    "url": "git+https://github.com/ardhi/bajo-web-mpa-bootstrap.git"
   },
   "keywords": [
     "bootstrap",
@@ -23,10 +23,11 @@
   "author": "Ardhi Lukianto <ardhi@lukianto.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ardhi/bajo-web-bootstrap/issues"
+    "url": "https://github.com/ardhi/bajo-web-mpa-bootstrap/issues"
   },
-  "homepage": "https://github.com/ardhi/bajo-web-bootstrap#readme",
+  "homepage": "https://github.com/ardhi/bajo-web-mpa-bootstrap#readme",
   "dependencies": {
-    "bootstrap": "^5.3.1"
+    "bootstrap": "^5.3.1",
+    "bootstrap-icons": "^1.10.5"
   }
 }
