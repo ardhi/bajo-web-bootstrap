@@ -27,7 +27,8 @@
   },
   "homepage": "https://github.com/ardhi/bajo-web-mpa-bootstrap#readme",
   "dependencies": {
-    "bootstrap": "^5.3.1",
-    "bootstrap-icons": "^1.10.5"
+    "bootstrap-icons": "^1.10.5",
+    "bootstrap4": "npm:bootstrap@^4.6.2",
+    "bootstrap5": "npm:bootstrap@^5.3.1"
   }
 }
