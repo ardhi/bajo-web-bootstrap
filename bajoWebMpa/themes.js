@@ -8,7 +8,15 @@ async function themes () {
     ],
     css: [
       `${virtualDir('bajoWebMpaBootstrap')}/bs5/css/bootstrap.min.css`
-    ]
+    ],
+    mapping: {
+      sizing: {
+        small: 'sm',
+        big: 'bg',
+        sm: 'sm',
+        bg: 'bg'
+      }
+    }
   }, {
     name: 'bootstrap4',
     description: 'Bootstrap 4.6',
@@ -18,7 +26,15 @@ async function themes () {
     ],
     css: [
       `${virtualDir('bajoWebMpaBootstrap')}/bs4/css/bootstrap.min.css`
-    ]
+    ],
+    mapping: {
+      sizing: {
+        small: 'sm',
+        big: 'bg',
+        sm: 'sm',
+        bg: 'bg'
+      }
+    }
   }]
 }
 

@@ -1,0 +1,17 @@
+{% tag 'div',
+    class=attr.label|ternary('form-check ', '') + attr.inline|ternary('form-check-inline ', '') + attr.reverse|ternary('form-check-reverse ', '') + attr.wrapperClass|d('mb3'),
+    style=attr.wrapperStyle,
+    id=attr.wrapperId %}
+  {% tag 'check',
+    class=attr.class,
+    style=attr.style,
+    id=attr.id,
+    name=attr.name,
+    disabled=attr.disabled,
+    checked=attr.checked,
+    err=attr.err,
+    success=attr.success,
+    value=attr.value %}{% endtag %}
+  {% include 'tag:_form-check-label:bootstrap5' %}
+  {% include 'tag:_form-help:bootstrap5' %}
+{% endtag %}
