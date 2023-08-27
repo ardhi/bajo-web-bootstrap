@@ -12,9 +12,9 @@ async function themes () {
     mapping: {
       sizing: {
         small: 'sm',
-        big: 'bg',
+        large: 'lg',
         sm: 'sm',
-        bg: 'bg'
+        lg: 'lg'
       }
     }
   }, {
@@ -30,9 +30,9 @@ async function themes () {
     mapping: {
       sizing: {
         small: 'sm',
-        big: 'bg',
+        large: 'lg',
         sm: 'sm',
-        bg: 'bg'
+        lg: 'lg'
       }
     }
   }]

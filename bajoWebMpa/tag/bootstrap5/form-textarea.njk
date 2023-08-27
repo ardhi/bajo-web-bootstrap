@@ -5,13 +5,14 @@
     id=attr.id,
     name=attr.name,
     type=attr.type,
-    ariaDescribedby=attr.helpId|d(attr.id + '-help'),
+    ariaDescribedby=attr.helpId|d(attr.id + '-help') + attr.error|ternary(' ' + attr.id + '-invalid', ''),
     disabled=attr.disabled,
     readonly=attr.readonly,
+    required=attr.required,
     placeholder=attr.placeholder|d(attr.label),
     sizing=attr.sizing,
     value=attr.value,
-    err=attr.err,
+    error=attr.error,
     success=attr.success,
     rows=attr.rows,
     plaintext=attr.plaintext %}{% endtag %}
@@ -27,5 +28,6 @@
     {% include 'tag:_form-label:bootstrap5' %}
     {{ textarea }}
   {% endif %}
+  {% include 'tag:_form-feedback:bootstrap5' %}
   {% include 'tag:_form-help:bootstrap5' %}
 {% endtag %}
