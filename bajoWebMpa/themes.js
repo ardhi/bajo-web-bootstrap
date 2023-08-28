@@ -12,9 +12,13 @@ async function themes () {
     mapping: {
       sizing: {
         small: 'sm',
+        medium: 'md',
         large: 'lg',
         sm: 'sm',
-        lg: 'lg'
+        md: 'md',
+        lg: 'lg',
+        xl: 'xl',
+        xxl: 'xxl'
       }
     }
   }, {
@@ -30,9 +34,13 @@ async function themes () {
     mapping: {
       sizing: {
         small: 'sm',
+        medium: 'md',
         large: 'lg',
         sm: 'sm',
-        lg: 'lg'
+        md: 'md',
+        lg: 'lg',
+        xl: 'xl',
+        xxl: 'xxl'
       }
     }
   }]
