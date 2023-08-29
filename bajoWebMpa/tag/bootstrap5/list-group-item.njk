@@ -1,0 +1,9 @@
+<li
+    class="list-group-item{% if attr.active %} active{% endif %}{% if attr.disabled %} disabled{% endif %}{{ attr.class }}"
+    style="{{ attr.style }}"
+    {% if attr.active %}aria-current="true"{% endif %}
+    {% if attr.disabled %}aria-disabled="true"{% endif %}
+    {{ attributes|safe -}}
+    {{ params|join(' ') -}}>
+    {{- content|safe -}}
+    </li>
