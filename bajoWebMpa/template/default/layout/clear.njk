@@ -10,7 +10,8 @@
     {% block css %}{% endblock %}
   </head>
   <body class="p-3 m-0 border-0 bd-example m-0 border-0">
-    <h1>Hello, world!</h1>
+    <h1>{{ title }}</h1>
+    <h2>{{ subtitle }}</h1>
     {% block body %}{% endblock %}
     {% for s in theme.script %}
     <script src="{{ s }}"></script>
