@@ -8,7 +8,7 @@
     {% if opt|isString %}
     {% tag 'listGroupItem' %}{{ opt }}{% endtag %}
     {% else %}
-    {% tag 'listGroupItem', active=opt.active %}{{ opt.caption }}{% endtag %}
+    {% tag 'listGroupItem', active=opt.active, href=opt.href, icon=opt.icon %}{{ opt.caption }}{% endtag %}
     {% endif %}
     {%- endfor -%}
     {%- else -%}
